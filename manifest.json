@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "version": "1.5",
+  "name": "Dracula Dark Theme",
+  "short_name": "Dracula",
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/bg-000-5672c42860d5b06e1058dc477397f3ef.svg"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgb(68, 71, 90)",
+      "toolbar_text": "rgb(255, 255, 255)",
+      "frame": "rgb(40, 42, 54)",
+      "tab_background_text": "rgb(199, 202, 210)",
+      "toolbar_field": "rgb(53, 57, 86)",
+      "toolbar_field_text": "rgb(255, 255, 255)",
+      "tab_line": "rgb(139, 105, 190)",
+      "popup_text": "rgb(255, 255, 255)",
+      "popup_border": "rgb(189, 147, 249)",
+      "tab_loading": "rgb(139, 105, 190)",
+      "button_background_hover": "rgb(98, 114, 164)",
+      "button_background_active": "rgb(40, 42, 54)",
+      "toolbar_field_border_focus": "rgb(98, 114, 164)",
+      "popup": "rgb(40, 42, 54)",
+      "popup_highlight": "rgb(68, 71, 90)",
+      "sidebar": "rgb(40, 42, 54)",
+      "sidebar_border": "rgb(98, 114, 164)",
+      "sidebar_highlight": "rgb(68, 71, 90)",
+      "sidebar_highlight_text": "rgb(248, 248, 242)",
+      "ntp_background": "rgb(40, 42, 54)",
+      "ntp_text": "rgb(248, 248, 242)"
+    }
+  }
+}
