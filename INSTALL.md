@@ -1,4 +1,4 @@
-### [X](https://www.mozilla.org/en-US/firefox/new/)  
+### [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)  
 
 #### Install using Firefox Addons(preferential)  
 
