@@ -11,8 +11,9 @@ All instructions can be found at [draculatheme.com/x](https://draculatheme.com/d
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/dracula-firefox/graphs/contributors).  
 
-[![Rafael Lopes](https://avatars2.githubusercontent.com/u/28673457?s=460&v=4)](https://github.com/RaphGL)  
-
+| [![Rafael Lopes](https://avatars2.githubusercontent.com/u/28673457?s=460&v=4)](https://github.com/RaphGL) |
+| --------------------------------------------------------------------------------------------------------- |
+| [Rafael Lopes](https://github.com/RaphGL)                                                                 |
 ## License  
 
 [MIT License](./LICENSE)
