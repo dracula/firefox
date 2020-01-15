@@ -5,7 +5,7 @@
 
 ## Install  
 
-All instructions can be found at [draculatheme.com/x](https://draculatheme.com/dracula-firefox).  
+All instructions can be found at [draculatheme.com/dracula-firefox](https://draculatheme.com/dracula-firefox).  
 
 ## Team  
 
