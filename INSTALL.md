@@ -1,21 +1,21 @@
-### [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)  
+### [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
-#### Install using Firefox Addons(preferential)  
+#### Install using Firefox Addons(preferential)
 
 Install the theme directly from [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/dracula-dark-colorscheme/).
- 
-#### Install using Git  
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:  
+#### Install using Git
 
-    $ git clone https://github.com/RaphGL/dracula-firefox.git  
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
-#### Install manually  
+    $ git clone https://github.com/RaphGL/dracula-firefox.git
 
-Download using the [GitHub .zip download](https://github.com/dracula/dracula-firefox/archive/master.zip) option and unzip them.  
+#### Install manually
 
-#### Activating theme  
+Download using the [GitHub .zip download](https://github.com/dracula/firefox/archive/master.zip) option and unzip them.
 
-1. Convert manifest.json into XPI format  
-2. Open Firefox and go to about:addons  
-3. Themes > Settings > Install addon from file... > Your .xpi file  
+#### Activating theme
+
+1. Convert manifest.json into XPI format
+2. Open Firefox and go to `about:addons`
+3. Themes > Settings > Install addon from file... > Your .xpi file
