@@ -8,7 +8,7 @@ Install the theme directly from [Firefox Addons](https://addons.mozilla.org/en-U
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
-    $ git clone https://github.com/RaphGL/dracula-firefox.git
+    $ git clone https://github.com/dracula/firefox.git
 
 #### Install manually
 
