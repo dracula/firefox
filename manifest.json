@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.9",
+  "version": "1.9.2",
   "name": "Dracula Dark Theme",
   "short_name": "Dracula",
   "theme": {
@@ -13,7 +13,7 @@
       "ntp_background": "rgb(40, 42, 54)",
       "ntp_text": "rgb(248, 248, 242)",
       "popup": "rgb(40, 42, 54)",
-      "popup_border": "rgb(113, 75, 165)",
+      "popup_border": "rgb(189, 147, 249)",
       "popup_highlight": "rgb(68, 71, 90)",
       "popup_highlight_text": "rgb(248, 248, 242)",
       "popup_text": "rgb(255, 255, 255)",
@@ -24,7 +24,6 @@
       "sidebar_text": "rgb(248, 248, 242)",
       "tab_background_separator": "rgb(98, 114, 164)",
       "tab_background_text": "rgb(199, 202, 210)",
-      "tab_line": "rgb(139, 105, 190)",
       "tab_loading": "rgb(98, 114, 164)",
       "tab_selected": "rgb(68, 71, 90)",
       "tab_text": "rgb(248, 248, 242)",
@@ -32,7 +31,7 @@
       "toolbar_bottom_separator": "rgb(68, 71, 90)",
       "toolbar_field": "rgb(53, 57, 86)",
       "toolbar_field_border": "rgb(98, 114, 164)",
-      "toolbar_field_border_focus": "rgb(113, 75, 165)",
+      "toolbar_field_border_focus": "rgb(189, 147, 249)",
       "toolbar_field_highlight": "rgb(98, 114, 164)",
       "toolbar_field_highlight_text": "rgb(248, 248, 242)",
       "toolbar_field_separator": "rgb(98, 114, 164)",
