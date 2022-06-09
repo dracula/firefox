@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.9.2",
+  "version": "1.9.3",
   "name": "Dracula Dark Theme",
   "short_name": "Dracula",
   "theme": {
@@ -39,6 +39,14 @@
       "toolbar_text": "rgb(255, 255, 255)",
       "toolbar_top_separator": "rgb(40, 42, 54)",
       "toolbar_vertical_separator": "rgb(98, 114, 164)"
+    },
+    "properties": {
+      "color_scheme": "dark",
+      "panel_hover": "color-mix(in srgb, currentColor 9%, transparent)",
+      "panel_active": "color-mix(in srgb, currentColor 14%, transparent)",
+      "panel_active_darker": "color-mix(in srgb, currentColor 25%, transparent)",
+      "toolbar_field_icon_opacity": "1",
+      "zap_gradient": "linear-gradient(90deg, #9059FF 0%, #FF4AA2 52.08%, #FFBD4F 100%)"
     }
   }
 }
