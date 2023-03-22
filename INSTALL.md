@@ -58,20 +58,21 @@ Download using the [GitHub .zip download](https://github.com/dracula/firefox/arc
 2. Install the JSON Lite extension from [here](https://addons.mozilla.org/en-US/firefox/addon/json-lite/).
 3. Set the values as shown in the screenshot above, you can find the values to copy below.
 
-
-    Font: 13px JetBrains Mono,monospace
-    Text color: #f8f8f2
-    Background color: #282A36
-    Info color: #6272a4
-    Info hover color: #6272a4
-    Line numbers color: #6272a4
-    Line numbers background: #1D2128
-    String color: #f1fa8c
-    Number color: #bd93f9
-    Boolean color: #bd93f9
-    Null color: #bd93f9
-    Propertie name color: #8be9fd
-    Error color: #ed2655
+```
+Font: 13px JetBrains Mono,monospace
+Text color: #f8f8f2
+Background color: #282A36
+Info color: #6272a4
+Info hover color: #6272a4
+Line numbers color: #6272a4
+Line numbers background: #1D2128
+String color: #f1fa8c
+Number color: #bd93f9
+Boolean color: #bd93f9
+Null color: #bd93f9
+Propertie name color: #8be9fd
+Error color: #ed2655
+```
 
 **Tweaks**
 Certain customizations like hiding the Firefox logo on the newtab page or switching to floating tabs can be done on the theme. More information on how to do this can be found in the original [repository](https://github.com/bmFtZQ/edge-frfox#tweaks).
