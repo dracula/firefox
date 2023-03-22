@@ -1,0 +1,383 @@
+/* Dracula Theme by @jannikbuscha */
+
+/* Dracula palette */
+:root {
+    --dracula-background: #282a36;
+    --dracula-current-line: #44475a;
+    --dracula-foreground: #f8f8f2;
+    --dracula-comment: #6272a4;
+    --dracula-black: #21222C;
+
+    --dracula-cyan: #8be9fd;
+    --dracula-green: #50fa7b;
+    --dracula-pink: #ff79c6;
+    --dracula-purple: #bd93f9;
+    --dracula-red: #ff5555;
+    --dracula-yellow: #f1fa8c;
+
+    --dracula-bright-cyan: #A4FFFF;
+    --dracula-bright-green: #69FF94;
+    --dracula-bright-pink: #D6ACFF;
+    --dracula-bright-purple: #FF92DF;
+    --dracula-bright-red: #FF6E6E;
+    --dracula-bright-yellow: #FFFFA5;
+}
+
+/* Chrome */
+:root[lwt-default-theme-in-dark-mode="true"],
+:root[style*="--lwt-accent-color: rgb(28, 27, 34)"] {
+    --lwt-accent-color: var(--dracula-background) !important;
+    --lwt-accent-color-inactive: var(--lwt-accent-color) !important;
+    --lwt-text-color: var(--dracula-foreground) !important;
+    --toolbar-bgcolor: var(--dracula-current-line) !important;
+    --toolbar-color: var(--dracula-foreground) !important;
+    --toolbarbutton-icon-fill: var(--dracula-foreground) !important;
+    --chrome-content-separator-color: var(--dracula-current-line) !important;
+    --lwt-toolbarbutton-icon-fill-attention: var(--dracula-pink) !important;
+    --toolbarbutton-icon-fill-attention: var(--dracula-pink) !important;
+    --toolbar-field-background-color: var(--dracula-background) !important;
+    --toolbar-field-color: var(--dracula-foreground) !important;
+    --toolbar-field-focus-border-color: var(--dracula-pink) !important;
+    --urlbar-box-bgcolor: rgba(var(--dracula-foreground), 11%) !important;
+    --urlbar-box-hover-bgcolor: rgba(var(--dracula-foreground), 11%) !important;
+    --urlbar-box-focus-bgcolor: rgba(var(--dracula-foreground), 28%) !important;
+    --urlbar-popup-url-color: var(--dracula-pink) !important;
+    --autocomplete-popup-background: var(--dracula-current-line) !important;
+    --autocomplete-popup-color: var(--dracula-foreground) !important;
+    --autocomplete-popup-highlight-background: var(--dracula-current-line) !important;
+    --autocomplete-popup-hover-background: var(--dracula-current-line) !important;
+    --button-bgcolor: var(--dracula-comment) !important;
+    --button-hover-bgcolor: var(--dracula-comment) !important;
+    --button-active-bgcolor: var(--dracula-comment) !important;
+    --button-primary-bgcolor: var(--dracula-pink) !important;
+    --button-primary-hover-bgcolor: var(--dracula-bright-purple) !important;
+    --button-primary-active-bgcolor: var(--dracula-pink) !important;
+    --button-primary-color: var(--dracula-foreground) !important;
+    --error-text-color: var(--dracula-bright-red) !important;
+    --input-bgcolor: var(--dracula-current-line) !important;
+    --input-color: var(--dracula-foreground) !important;
+    --input-border-color: var(--dracula-current-line) !important;
+    --input-error-border-color: var(--dracula-bright-red) !important;
+    --zoom-controls-bgcolor: var(--dracula-current-line) !important;
+    --arrowpanel-background: var(--dracula-current-line) !important;
+    --arrowpanel-color: var(--dracula-foreground) !important;
+    --panel-description-color: rgba(var(--dracula-foreground), 73%) !important;
+    --panel-disabled-color: var(--dracula-comment) !important;
+    --arrowpanel-dimmed: var(--dracula-comment) !important;
+    --arrowpanel-dimmed-further: var(--dracula-comment) !important;
+    --panel-item-hover-bgcolor: var(--dracula-comment) !important;
+    --panel-item-active-bgcolor: var(--dracula-comment) !important;
+    --arrowpanel-border-color: var(--dracula-comment) !important;
+    --panel-separator-color: var(--dracula-comment) !important;
+    --panel-banner-item-update-supported-bgcolor: var(--dracula-bright-green) !important;
+    --focus-outline-color: var(--dracula-pink) !important;
+    --toolbarbutton-hover-background: var(--dracula-comment) !important;
+    --toolbarbutton-active-background: rgba(var(--dracula-foreground), 16%) !important;
+    --tab-icon-overlay-stroke: var(--dracula-comment) !important;
+    --tab-icon-overlay-fill: var(--dracula-foreground) !important;
+    --toolbarseparator-color: var(--dracula-comment) !important;
+    --checkbox-border-color: var(--dracula-comment) !important;
+}
+
+/* Change Colour of page when loading */
+:root[lwt-default-theme-in-dark-mode="true"] #tabbrowser-tabpanels,
+:root[style*="--lwt-accent-color: rgb(28, 27, 34)"] #tabbrowser-tabpanels {
+    background-color: var(--dracula-background) !important;
+}
+
+/* make the titlebar buttons white on default dark themes */
+:root[lwt-default-theme-in-dark-mode="true"][tabsintitlebar] .titlebar-buttonbox,
+:root[style*="--lwt-accent-color: rgb(28, 27, 34)"][tabsintitlebar] .titlebar-buttonbox {
+    color: var(--dracula-foreground) !important;
+}
+
+@media (-moz-platform: windows) {
+    .titlebar-close:hover {
+        background-color: var(--dracula-red) !important;
+    }
+
+    .titlebar-close:hover:active {
+        background-color: var(--dracula-bright-red) !important;
+    }
+
+    toolbar[brighttext] .titlebar-close:hover:active {
+        background-color: var(--dracula-red) !important;
+    }
+
+    /* library window theme */
+    window#places {
+        --organizer-color: var(--dracula-black) !important;
+        --organizer-deemphasized-color: var(--dracula-current-line) !important;
+        --organizer-toolbar-background: var(--dracula-foreground) !important;
+        --organizer-pane-background: var(--dracula-foreground) !important;
+        --organizer-content-background: var(--dracula-foreground) !important;
+        --organizer-hover-background: rgba(var(--dracula-black), 15%) !important;
+        --organizer-selected-background: rgba(var(--dracula-pink), 80%) !important;
+        --organizer-outline-color: rgba(var(--dracula-pink), 63%) !important;
+        --organizer-toolbar-field-background: var(--dracula-foreground) !important;
+        --organizer-toolbar-field-background-focused: var(--dracula-foreground) !important;
+        --organizer-border-color: var(--dracula-current-line) !important;
+        scrollbar-color: rgba(var(--dracula-black), 40%) rgba(var(--dracula-foreground), 40%) !important;
+    }
+
+    #placesViewsBox #downloadsListBox richlistitem[selected="true"] {
+        background-color: var(--dracula-pink) !important;
+        color: var(--dracula-foreground) !important;
+    }
+
+    #placeContentColumns :is(treecol, treecolpicker) {
+        background-color: var(--dracula-foreground) !important;
+        color: var(--dracula-black) !important;
+        border-inline-start: 1px solid var(--dracula-current-line) !important;
+        box-shadow: inset 0 -1px var(--dracula-current-line) !important;
+    }
+
+    #placeContentColumns :is(treecol, treecolpicker):where(:hover) {
+        background-color: var(--dracula-current-line) !important;
+        color: var(--dracula-black) !important;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        window#places {
+            --organizer-color: var(--dracula-foreground) !important;
+            --organizer-deemphasized-color: var(--dracula-current-line) !important;
+            --organizer-toolbar-background: var(--dracula-current-line) !important;
+            --organizer-pane-background: var(--dracula-background) !important;
+            --organizer-content-background: var(--dracula-black) !important;
+            --organizer-hover-background: rgba(var(--dracula-foreground), 15%) !important;
+            --organizer-selected-background: rgba(var(--dracula-pink), 80%) !important;
+            --organizer-outline-color: var(--dracula-pink) !important;
+            --organizer-toolbar-field-background: var(--dracula-background) !important;
+            --organizer-toolbar-field-background-focused: var(--dracula-background) !important;
+            --organizer-border-color: transparent !important;
+            scrollbar-color: rgba(var(--dracula-foreground), 40%) rgba(var(--dracula-background), 40%) !important;
+        }
+
+        #placesViewsBox #downloadsListBox richlistitem[selected="true"] {
+            background-color: var(--dracula-pink) !important;
+            color: var(--dracula-foreground) !important;
+        }
+
+        #placeContentColumns :is(treecol, treecolpicker) {
+            background-color: var(--dracula-current-line) !important;
+            color: var(--dracula-foreground) !important;
+            border-inline-start: none !important;
+            box-shadow: none !important;
+        }
+
+        #placeContentColumns :is(treecol, treecolpicker):where(:hover) {
+            background-color: var(--dracula-current-line) !important;
+            color: var(--dracula-foreground) !important;
+        }
+    }
+}
+
+/* side bar theme */
+#sidebar-box[style*="--sidebar-background-color: rgb(56, 56, 61"] {
+    --sidebar-background-color: var(--dracula-current-line) !important;
+    --sidebar-text-color: var(--dracula-foreground) !important;
+}
+
+#browser[style*="--sidebar-border-color: rgba(255, 255, 255"] {
+    --sidebar-border-color: var(--dracula-current-line) !important;
+}
+
+.sidebar-panel[lwt-sidebar-brighttext][style*="--lwt-sidebar-background-color: rgb(56, 56, 61)"],
+body[lwt-sidebar-brighttext][style*="--lwt-sidebar-background-color: rgb(56, 56, 61)"] {
+    --lwt-sidebar-background-color: var(--dracula-current-line) !important;
+    --lwt-sidebar-text-color: var(--dracula-foreground) !important;
+    scrollbar-color: rgba(var(--dracula-foreground), 40%) rgba(var(--dracula-current-line), 40%) !important;
+}
+
+@media (-moz-platform: windows) {
+    .sidebar-panel[lwt-sidebar-brighttext][style*="--lwt-sidebar-background-color: rgb(56, 56, 61)"] #sidebar-search-container > #search-box,
+    .sidebar-panel[lwt-sidebar-brighttext][style*="--lwt-sidebar-background-color: rgb(56, 56, 61)"] #viewButton {
+        background-color: var(--dracula-background) !important;
+        border: 1px solid var(--dracula-current-line) !important;
+    }
+}
+
+/* Content */
+:root.theme-dark {
+    --theme-tab-toolbar-background: var(--dracula-black) !important;
+    --theme-toolbar-background: var(--dracula-background) !important;
+    --theme-selection-background: var(--dracula-current-line) !important;
+    --theme-selection-color: var(--dracula-foreground) !important;
+    --theme-splitter-color: var(--dracula-current-line) !important;
+    --theme-comment: var(--dracula-comment) !important;
+
+    --theme-body-background: var(--dracula-background) !important;
+    --theme-sidebar-background: var(--theme-body-background) !important;
+    --theme-contrast-background: var(--dracula-bright-red) !important;
+
+    --theme-body-color: var(--dracula-foreground) !important;
+
+    --theme-highlight-blue: var(--dracula-pink) !important;
+    --theme-highlight-purple: var(--dracula-yellow) !important;
+    --theme-highlight-pink: var(--dracula-purple) !important;
+    --theme-highlight-red: var(--dracula-green) !important;
+    --theme-highlight-orange: #ffb86c !important;
+    --theme-highlight-lightorange: var(--dracula-bright-yellow) !important;
+    --theme-highlight-green: var(--dracula-comment) !important;
+    --theme-highlight-bluegrey: var(--dracula-cyan) !important;
+    --theme-highlight-yellow: var(--dracula-red) !important;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(JetBrains-Mono.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@-moz-document url-prefix(chrome://devtools/content/) {
+    body, .CodeMirror-line {
+        font-family: 'JetBrains Mono' !important;
+        font-size: 13px !important;
+        line-height: 1.3 !important;
+        font-weight: normal !important;
+    }
+}
+
+div, [platform="linux"]:root .devtools-monospace{
+    font-size: 13px !important;
+}
+
+@-moz-document url-prefix("about:newtab"),
+url-prefix("about:home"),
+url-prefix("about:firefoxview") {
+    body[style*="--newtab-background-color: rgb(43, 42, 51)"][lwt-newtab-brighttext],
+    body:not([style*="color"])[lwt-newtab-brighttext] {
+        --newtab-background-color: var(--dracula-background) !important;
+        --newtab-background-color-secondary: var(--dracula-current-line) !important;
+        --newtab-text-primary-color: var(--dracula-foreground) !important;
+        --newtab-primary-action-background: var(--dracula-pink) !important;
+        --newtab-element-hover-color: color-mix(in srgb, var(--newtab-background-color) 95%, var(--dracula-foreground)) !important;
+        --newtab-element-active-color: color-mix(in srgb, var(--newtab-background-color) 90%, var(--dracula-foreground)) !important;
+        --newtab-element-secondary-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+        --newtab-element-secondary-hover-color: color-mix(in srgb, currentColor 17%, transparent) !important;
+        --newtab-element-secondary-active-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+        --newtab-border-color: color-mix(in srgb, var(--newtab-background-color) 75%, var(--dracula-foreground)) !important;
+        --newtab-primary-element-text-color: var(--dracula-background) !important;
+        --newtab-wordmark-color: var(--dracula-foreground) !important;
+        --newtab-status-success: var(--dracula-green) !important;
+    }
+}
+
+/* private browsing newtab */
+@-moz-document url-prefix(about:privatebrowsing) {
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --uc-wordmark-color: var(--dracula-foreground);
+            --uc-background-color-secondary: var(--dracula-current-line);
+        }
+    }
+
+    @supports -moz-bool-pref("browser.theme.dark-private-windows") {
+        html.private {
+            --in-content-page-color: var(--dracula-foreground) !important;
+            --in-content-page-background: var(--dracula-background) !important;
+            --in-content-focus-outline-color: var(--dracula-pink) !important;
+            --uc-background-color-secondary: var(--dracula-current-line) !important;
+            --uc-wordmark-color: var(--dracula-foreground) !important;
+        }
+    }
+}
+
+@supports -moz-bool-pref("uc.tweak.newtab-background") {
+    @-moz-document url(about:newtab),
+    url(about:home),
+    url(about:privatebrowsing),
+    url-prefix("about:firefoxview") {
+        body:not([lwt-newtab]),
+        body[lwt-newtab],
+        body[lwt-newtab][lwt-newtab-brighttext] {
+            --newtab-element-hover-color: rgba(var(--dracula-foreground), 30%) !important;
+            --newtab-element-active-color: rgba(var(--dracula-foreground), 45%) !important;
+            background-color: var(--dracula-background) !important;
+        }
+
+        body[lwt-newtab][lwt-newtab-brighttext],
+        :root.private body {
+            --newtab-element-hover-color: rgba(var(--dracula-comment), 40%) !important;
+            --newtab-element-active-color: rgba(var(--dracula-comment), 55%) !important;
+        }
+
+        .top-site-outer .title,
+        .ds-header,
+        .ds-layout .section-title span,
+        .ds-navigation,
+        .page-section-header > h1,
+        .page-section-header > .section-description,
+        .closed-tab-li-main:not(:hover, :active),
+        .closed-tab-li-dismiss,
+        .brand-logo > .brand-feature-name,
+        #colorways-collection-title,
+        #colorways-collection-description,
+        .synced-tabs-container > .loading-content {
+            color: var(--dracula-foreground) !important;
+        }
+
+        .wordmark,
+        .icon-settings,
+        .top-site-outer .context-menu-button,
+        .closed-tab-li-main:not(:hover, :active) .favicon,
+        .page-section-header:not(:hover) > .twisty,
+        .synced-tab-li-favicon,
+        .page-section-header:not(:hover) > .twisty,
+        .closed-tab-li-dismiss:not(:hover),
+        .synced-tabs-container > .loading-content .sync {
+            color: var(--dracula-foreground) !important;
+        }
+
+        .section-top-bar .learn-more-link a,
+        .ds-navigation a {
+            color: var(--dracula-bright-purple) !important;
+        }
+
+        .top-site-outer .title .sponsored-label,
+        .closed-tab-li-main:not(:hover, :active) :is(.closed-tab-li-url, .closed-tab-li-time) {
+            color: var(--dracula-comment) !important;
+        }
+    }
+}
+
+@-moz-document url-prefix(about:) {
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --in-content-page-background: var(--dracula-background) !important;
+            --in-content-page-color: var(--dracula-foreground) !important;
+            --in-content-deemphasized-text: var(--dracula-comment) !important;
+            --in-content-box-background: var(--dracula-current-line) !important;
+            --in-content-box-background-odd: rgba(var(--dracula-foreground), 5%) !important;
+            --in-content-box-info-background: rgba(var(--dracula-foreground), 15%) !important;
+            --in-content-border-color: rgba(var(--dracula-foreground), 20%) !important;
+            --in-content-border-hover: rgba(var(--dracula-foreground), 30%) !important;
+            --in-content-border-invalid:  var(--dracula-red) !important;
+            --in-content-error-text-color: var(--dracula-bright-red) !important;
+            --in-content-button-background: var(--dracula-comment) !important;
+            --in-content-button-background-hover: var(--dracula-comment) !important;
+            --in-content-button-background-active: var(--dracula-comment) !important;
+            --in-content-icon-color: var(--dracula-foreground) !important;
+            --in-content-primary-button-text-color: var(--dracula-foreground) !important;
+            --in-content-primary-button-background: var(--dracula-pink) !important;
+            --in-content-primary-button-background-hover: var(--dracula-bright-purple) !important;
+            --in-content-primary-button-background-active: var(--dracula-pink) !important;
+            --in-content-danger-button-background: var(--dracula-red) !important;
+            --in-content-danger-button-background-hover: var(--dracula-bright-red) !important;
+            --in-content-danger-button-background-active: var(--dracula-red) !important;
+            --in-content-focus-outline-color: var(--dracula-pink) !important;
+            --in-content-table-background: var(--dracula-background) !important;
+            --in-content-accent-color: var(--dracula-pink) !important;
+            --in-content-accent-color-active: var(--dracula-pink) !important;
+            --in-content-link-color: var(--dracula-pink) !important;
+            --in-content-link-color-hover: var(--dracula-bright-purple) !important;
+            --in-content-link-color-active: var(--dracula-pink) !important;
+            --card-outline-color: var(--dracula-current-line) !important;
+            --dialog-warning-text-color: var(--dracula-red) !important;
+            scrollbar-color: rgba(var(--dracula-foreground), 40%) var(--dracula-background) !important;
+        }
+    }
+}

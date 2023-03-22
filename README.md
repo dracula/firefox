@@ -12,9 +12,9 @@ All instructions can be found at [draculatheme.com/firefox](https://draculatheme
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/firefox/graphs/contributors).
 
-| [![Raph](https://avatars2.githubusercontent.com/u/28673457?s=70)](https://github.com/RaphGL) |
-| ---------------------------------------------------------------------------------------------------- |
-| [Raph](https://github.com/RaphGL)                                                            |
+| [![Raph](https://avatars2.githubusercontent.com/u/28673457?s=70)](https://github.com/RaphGL) | [![Jannik Buscha](https://avatars2.githubusercontent.com/u/74017697?s=70)](https://github.com/jannikbuscha) |
+| -------------------------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------------|
+| [Raph](https://github.com/RaphGL)                                                            | [Jannik Buscha](https://github.com/jannikbuscha)                                                            |
 
 ## Community
 
