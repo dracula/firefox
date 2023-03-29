@@ -381,3 +381,13 @@ url-prefix("about:firefoxview") {
         }
     }
 }
+
+/* Custom adjustments */
+#urlbar[open]>#urlbar-background {
+    border: 1px solid var(--toolbar-field-focus-border-color) !important;
+}
+
+.urlbarView {
+    margin-inline: 8px !important;
+    width: calc(100% - 8px * 2) !important;
+}
