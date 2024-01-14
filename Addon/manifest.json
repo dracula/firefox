@@ -34,6 +34,7 @@
             "tab_background_text": "rgb(199, 202, 210)",
             "tab_loading": "rgb(98, 114, 164)",
             "tab_selected": "rgb(68, 71, 90)",
+            "tab_line": "rgb(68, 71, 90)",
             "tab_text": "rgb(248, 248, 242)",
             "toolbar": "rgb(68, 71, 90)",
             "toolbar_bottom_separator": "rgb(68, 71, 90)",
