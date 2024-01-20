@@ -1,6 +1,6 @@
 {
-    "manifest_version": 3,
-    "version": "1.9.4",
+    "manifest_version": 2,
+    "version": "1.10.0",
     "name": "Dracula Dark Theme",
     "short_name": "Dracula",
 
@@ -43,7 +43,6 @@
             "toolbar_field_border_focus": "rgb(189, 147, 249)",
             "toolbar_field_highlight": "rgb(68, 71, 90)",
             "toolbar_field_highlight_text": "rgb(248, 248, 242)",
-            "toolbar_field_separator": "rgb(98, 114, 164)",
             "toolbar_field_text": "rgb(255, 255, 255)",
             "toolbar_text": "rgb(255, 255, 255)",
             "toolbar_top_separator": "rgb(40, 42, 54)",
