@@ -239,10 +239,10 @@ body[lwt-sidebar-brighttext][style*="--lwt-sidebar-background-color: rgb(56, 56,
         line-height: 1.3 !important;
         font-weight: normal !important;
     }
-}
 
-div, [platform="linux"]:root .devtools-monospace{
-    font-size: 13px !important;
+    div, [platform="linux"]:root .devtools-monospace{
+        font-size: 13px !important;
+    }
 }
 
 @-moz-document url-prefix("about:newtab"),
