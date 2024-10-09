@@ -168,6 +168,10 @@ and 11 so applied to both) */
   list-style-image: url("search-page.svg") !important;
 }
 
+#appMenu-translate-button {
+	list-style-image: url("translate.svg") !important;
+}
+
 #open-file-button {
   list-style-image: url("open.svg") !important;
 }
@@ -245,6 +249,22 @@ and 11 so applied to both) */
 #new-window-button,
 #appMenu-new-window-button2 {
   list-style-image: url("window.svg") !important;
+}
+
+.subviewbutton[label="Eyedropper"] {
+	list-style-image: url("eyedropper.svg") !important;
+}
+
+.subviewbutton[label="Responsive Design Mode"] {
+	list-style-image: url("responsive.svg") !important;
+}
+
+.subviewbutton[label="Remote Debugging"] {
+	list-style-image: url("debugging.svg") !important;
+}
+
+.subviewbutton[label="Browser Toolbox"] {
+	list-style-image: url("toolbox.svg") !important;
 }
 
 #restore-button,
