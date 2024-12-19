@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "version": "1.10.0",
+    "version": "1.10.1",
     "name": "Dracula Dark Theme",
     "short_name": "Dracula",
 
@@ -36,7 +36,7 @@
             "tab_selected": "rgb(68, 71, 90)",
             "tab_line": "rgb(68, 71, 90)",
             "tab_text": "rgb(248, 248, 242)",
-            "toolbar": "rgb(68, 71, 90)",
+            "toolbar": "rgb(40, 42, 54)",
             "toolbar_bottom_separator": "rgb(68, 71, 90)",
             "toolbar_field": "rgb(40, 42, 54)",
             "toolbar_field_border": "rgb(98, 114, 164)",
